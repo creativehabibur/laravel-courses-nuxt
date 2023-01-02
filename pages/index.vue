@@ -64,6 +64,7 @@
       <h1 class="heading-tertiory text-center mb-10 md:mb-16">Featured Courses</h1>
       <div class="w-full grid grid-cols-3 single-feature gap-10 mx-auto">
         <!--Single Item-->
+<<<<<<< HEAD
         <div class="bg-white rounded grap-10 overflow-hidden shadow-card">
           <router-link to="/">
             <img src="https://laravel-courses.com/storage/courses/1168288b-5e18-4c67-a489-640a02a46198.png" alt="PEST Driven Laravel" class="w-full h-auto object-contain">
@@ -96,6 +97,9 @@
             </div>
           </div>
         </div>
+=======
+        <SingleCourse course="Test"/>
+>>>>>>> 5da0b2f (Initial commit)
         <!--Single Item end-->
         <div class="bg-white rounded grap-10 overflow-hidden shadow-card">
           <router-link to="/">
@@ -283,4 +287,14 @@
     </div>
   </div>
 
+<<<<<<< HEAD
 </template>
+=======
+</template>
+<script>
+import SingleCourse from "../components/SingleCourse";
+export default {
+  components: {SingleCourse}
+}
+</script>
+>>>>>>> 5da0b2f (Initial commit)
